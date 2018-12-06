@@ -521,11 +521,14 @@ final class Platform {
      */
     @SuppressWarnings("unused")
     static String oidToAlgorithmName(String oid) {
+        return "";
+    /*
         try {
             return AlgorithmId.get(oid).getName();
         } catch (NoSuchAlgorithmException e) {
             return oid;
         }
+    */
     }
 
     /*
